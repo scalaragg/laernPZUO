@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задачи</title>
+    <link rel="stylesheet" href="js/cssfojs/theme.css">
+</head>
+<body>
+    <header>
+        <a href="">Tasks</a>
+        <button id="themeThoggle">ТемныйМатвей</button>
+    </header>
+    <main>
+        <!--форма добавления задач-->
+        <div class="add-task">
+            <input type="text" id="taskInput" placeholder="Введите новую задачу...">
+            <button id="addTaskBtn">Добавить</button>
+        </div>
+
+        <!--Контейнер для списка задач-->
+        <ul id="taskList"></ul>
+
+        <!--счетчик задач-->
+        <div class="task-counter">
+            Всего задач: <span id="totalTasks">0</span>
+            Выполнено: <span id="completedTasks">0</span>
+        </div>
+    </main>
+    <script src="js/tasks.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+.sec1{
+    background-color:rgb(24, 6, 8);
+    width: 100%;
+    border-top: 2px solid rgb(47, 46, 66);
+    padding: 100px 0;
+}
+.stroka{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.card{
+    border: 2px solid rgb(143, 141, 145);
+    border-radius: 8px;
+    width: 20%;
+    text-align: center;
+}
+.izo{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+.tovar{
+    font-size: 32px;
+    font-weight: 200;
+    font-family: "Space Grotesk", sans-serif;
+    color: white;
+    margin-bottom: 0;
+}
+.price{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(117, 96, 96);
+    transition: all 0.2s ease;
+    
+}
+.price:hover{
+    background-color: burlywood;
+    padding: 15px 20px;
+    font-size: 22px;
+}
+.cena{
+
+}
+.kupit{
+    color: rgb(45, 57, 66);;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin-bottom: 120px;
+    margin-top: 0;
+}
+.ochem{
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 500;
+}
+
