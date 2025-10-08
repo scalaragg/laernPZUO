@@ -174,3 +174,70 @@ h3{
     text-align: center;
     margin-top: 0;
 }
+.donate{
+    width: 100%;
+    background-color: rgb(22, 16, 16);
+    border-top: 1px solid rgba(45, 48, 47, 0.1);
+    padding: 100px 0px;
+}
+.donatecard h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgb(238, 238, 238);
+    margin-top: 30px;
+    letter-spacing: 0;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.donate-cont{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.donatecard{
+    background-color: rgba(198, 199, 199, 0.151);
+    width: 18%;
+    padding: 2%;
+    border-radius: 10px;
+}
+.donatecard img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.donate-desc{
+    font-size: 15px;
+    margin-top: 0;
+    color: rgb(182, 122, 122);
+}
+.realprice{
+    color: rgb(46, 133, 118);
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1;
+}
+.fakeprice{
+    color: rgba(161, 161, 161, 0.589);
+     font-size: 15px;
+}
+.buy{
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-color: rgb(46, 133, 118);
+    margin-top: 10px;
+    padding: 15px 0;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.buy:hover{
+    background-color: rgba(46, 133, 118, 0.1);
+    border: 2px solid rgb(46, 133, 118);;
+    color: rgb(46, 133, 118);;
+}

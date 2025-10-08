@@ -15,13 +15,11 @@ function toggleTheme(){
         buttonTheme.textContent = 'ТемныйМатвей';
     }
 }
-
 //добавим обработчика события (нажатие на кнопку)
 //addEventListener() - 'слушает' событие на элементе
 // 'click' = тип события (клик мышкой)
 // toggleTheme - выполнить функцию при нажатии 
 buttonTheme.addEventListener('click', toggleTheme);
-
 
 
 const homeButton = document.getElementById('aoftheweb');
